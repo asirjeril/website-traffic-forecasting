@@ -1,0 +1,24 @@
+name: website-traffic-forecasting
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - ipykernel
+  - pip
+  - pip:
+      - prophet
+      - xgboost
+      - shap
+      - tensorflow-cpu
+      - optuna
+      - streamlit
+      - pytest
+      - black
+      - flake8
+      - isort
